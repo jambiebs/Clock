@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    font-size: 62.5%;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    font-size: 2.5rem;
+}
+.clock {
+    width: 50rem;
+    height: 50rem;
+    border: 1rem solid green;
+    border-radius: 50%;
+    position: relative;
+    padding: 1rem;
+}
+.n1 {
+    position: absolute;
+    top: 3.5rem;
+    left: 34.5rem;
+}
+.n2 {
+    position: absolute;
+    top: 11.5rem;
+    right: 4rem;
+}
+.n3 {
+    position: absolute;
+    right: 0.5rem;
+    top: 22.7rem;
+}
+.n4 {
+    position: absolute;
+    bottom: 11.4rem;
+    right: 4rem;
+}
+.n5 {
+    position: absolute;
+    bottom: 3.5rem;
+    left: 34.5rem;
+}
+.n6 {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 23.4rem;
+}
+.n7 {
+    position: absolute;
+    bottom: 3.5rem;
+    right: 34.5rem;
+}
+.n8 {
+    position: absolute;
+    bottom: 11.5rem;
+    left: 4rem;
+}
+.n9 {
+    position: absolute;
+    left: 0.5rem;
+    top: 22.7rem;
+}
+.n10 {
+    position: absolute;
+    top: 11.8rem;
+    left: 3.8rem;
+}
+.n11 {
+    position: absolute;
+    top: 3.5rem;
+    right: 34rem;
+}
+.n12 {
+    position: absolute;
+    top: 0.5rem;
+    left: 22.7rem;
+}
+.point {
+    background-color: green;
+    width: 3rem;
+    height: 3rem;
+    position: fixed;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+.point2 {
+    background-color: green;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 0.5rem solid white;
+    z-index: 9999;
+}
+
+ .plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+/* 
+.line1 {
+    background-color: red;
+    width: 100%;
+    height: 1px;
+    position: fixed;
+}
+.line2 {
+    background-color: blue;
+    width: 100%;
+    height: 1px;
+    position: fixed;
+    transform: rotate(90deg);
+}
+.line3 {
+    background-color: black;
+    width: 100%;
+    height: 1px;
+    position: fixed;
+    transform: rotate(30deg);
+}
+.line4 {
+    background-color: black;
+    width: 100%;
+    height: 1px;
+    position: fixed;
+    transform: rotate(60deg);
+}
+.line5 {
+    background-color: chocolate;
+    width: 100%;
+    height: 1px;
+    position: fixed;
+    transform: rotate(120deg);
+}
+.line6 {
+    background-color: brown;
+    width: 100%;
+    height: 1px;
+    position: fixed;
+    transform: rotate(150deg); 
+}   */
+
+.hour-stick {
+    position: absolute;
+    bottom: 50%;
+    left: 49.5%;
+    height: 150px;
+    width: 4px;
+    background-color: green;
+}
+.harrow {
+    font-size: 3rem;
+    font-weight: 500;
+    color: green;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 90px;
+    left: 241px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.minute-stick {
+    position: absolute;
+    bottom: 50%;
+    left: 49.6%;
+    height: 180px;
+    width: 3px;
+    background-color: blue;
+}
+.marrow {
+    font-size: 3rem;
+    font-weight: 500;
+    color: blue;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 60px;
+    left: 241px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.second-stick {
+    position: absolute;
+    bottom: 50%;
+    left: 49.8%;
+    height: 200px;
+    width: 2px;
+    background-color: red;    
+}
+.sarrow {
+    font-size: 3rem;
+    font-weight: 500;
+    color: red;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 40px;
+    left: 242.5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
