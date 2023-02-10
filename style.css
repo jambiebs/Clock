@@ -16,8 +16,8 @@ h2 {
     font-size: 3rem;
 }
 .clock {
-    width: 50rem;
-    height: 50rem;
+    width: 40rem;
+    height: 40rem;
     border: 1rem solid black;
     border-radius: 50%;
     position: relative;
@@ -25,63 +25,63 @@ h2 {
 }
 .n1 {
     position: absolute;
-    top: 3.5rem;
-    left: 34.5rem;
+    top: 2.5rem;
+    left: 27rem;
 }
 .n2 {
     position: absolute;
-    top: 11.5rem;
-    right: 4rem;
+    top: 8.5rem;
+    right: 3rem;
 }
 .n3 {
     position: absolute;
     right: 0.5rem;
-    top: 22.7rem;
+    top: 17.5rem;
 }
 .n4 {
     position: absolute;
-    bottom: 11.4rem;
-    right: 4rem;
+    bottom: 8.7rem;
+    right: 3rem;
 }
 .n5 {
     position: absolute;
-    bottom: 3.5rem;
-    left: 34.5rem;
+    bottom: 2.5rem;
+    left: 26.8rem;
 }
 .n6 {
     position: absolute;
     bottom: 0.5rem;
-    left: 23.4rem;
+    left: 18rem;
 }
 .n7 {
     position: absolute;
-    bottom: 3.5rem;
-    right: 34.5rem;
+    bottom: 2.5rem;
+    right: 26.8rem;
 }
 .n8 {
     position: absolute;
-    bottom: 11.5rem;
-    left: 4rem;
+    bottom: 8.7rem;
+    left: 3.4rem;
 }
 .n9 {
     position: absolute;
     left: 0.5rem;
-    top: 22.7rem;
+    top: 17.5rem;
 }
 .n10 {
     position: absolute;
-    top: 11.8rem;
-    left: 3.8rem;
+    top: 8.8rem;
+    left: 2.8rem;
 }
 .n11 {
     position: absolute;
-    top: 3.5rem;
-    right: 34rem;
+    top: 2.5rem;
+    right: 26.5rem;
 }
 .n12 {
     position: absolute;
     top: 0.5rem;
-    left: 22.7rem;
+    left: 17.5rem;
 }
 .point {
     background-color: black;
